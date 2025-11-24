@@ -11,17 +11,17 @@
 */
 
 function repeatedIntegers(x: number) {
-  let arry: number[] = []
-  let i = 1
-  while (i <= x) {
-    let p = 1
-    while (p <= i) {
-      arry.push(i)
-      p++
-    }
-    i++
-  }
-  return arry
+	let arry: number[] = []
+	let i = 1
+	while (i <= x) {
+		let p = 1
+		while (p <= i) {
+			arry.push(i)
+			p++
+		}
+		i++
+	}
+	return arry
 }
 
-console.log(repeatedIntegers(4))
+console.log(repeatedIntegers(0))

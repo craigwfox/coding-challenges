@@ -11,9 +11,9 @@
 */
 
 function repeatedIntegers(x: number) {
-  return Array.from({ length: x }).flatMap((y, index) => {
+  return Array.from({ length: x }).flatMap((_, index) => {
     return Array.from({ length: index + 1 }).map(
-      y => index + 1
+      _ => index + 1
     )
   })
 }
